@@ -105,11 +105,13 @@ The model is trained using the available cleaned property dataset and is used to
 
 ## 🚀 Run the Project Locally
 
+## 🚀 Run the Project Locally
+
 Clone the repository:
 
 ```bash
 git clone https://github.com/Harsh827385/Gurgaon-Real-Estate-Analysis.git
-
+```
 
 ## 📸 Project Screenshots
 
