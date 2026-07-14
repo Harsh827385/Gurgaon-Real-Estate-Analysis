@@ -61,8 +61,8 @@ st.markdown("""
     
     <div class="hero">
         <h1>🏘️ Gurgaon Real Estate Market Analysis</h1>
-        <p>Professional Portfolio Data Analytics Dashboard</p>
-        <p>Comprehensive insights into Gurgaon's residential property market</p>
+        <p>Interactive Real Estate Data Analytics Dashboard</p>
+        <p>Explore property trends, market insights, and price predictions</p>
     </div>
 """, unsafe_allow_html=True)
 
@@ -75,9 +75,9 @@ with col1:
     st.markdown("""
     ### What is This Project?
     
-    This is a **professional data analytics application** showcasing comprehensive analysis 
-    of the Gurgaon real estate market. Built with modern Python technologies, it demonstrates 
-    advanced data analysis, visualization, and machine learning capabilities.
+    This interactive data analytics application explores Gurgaon's residential real estate market using Python-based data analysis,
+    interactive visualizations, and machine learning. 
+    It transforms property data into meaningful market insights and includes a Linear Regression model for property price prediction.
     
     ### Key Objectives
     - 📊 Analyze Gurgaon's property market trends
@@ -159,28 +159,25 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown("""
     ### Backend & Analysis
-    - **Python** - Core language
-    - **Pandas** - Data manipulation
+    - **Python** - Core programming language
+    - **Pandas** - Data manipulation and analysis
     - **NumPy** - Numerical computing
-    - **Scikit-learn** - Machine Learning
+    - **Scikit-learn** - Machine learning
     """)
 
 with col2:
     st.markdown("""
     ### Visualization
-    - **Plotly** - Interactive charts
-    - **Streamlit** - Web framework
-    - **Seaborn** - Statistical viz
-    - **Matplotlib** - Additional plots
+    - **Plotly** - Interactive data visualizations
     """)
 
 with col3:
     st.markdown("""
-    ### Development
-    - **Python 3.8+**
+    ### Development & Deployment
+    - **Streamlit** - Interactive web application
     - **Git** - Version control
     - **GitHub** - Repository hosting
-    - **LinkedIn** - Professional network
+    - **Streamlit Community Cloud** - Application deployment
     """)
 
 st.markdown("---")

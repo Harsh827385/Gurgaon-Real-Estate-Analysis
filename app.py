@@ -16,13 +16,10 @@ from utils.session import initialize_session_state
 
 # Page configuration
 st.set_page_config(
-    page_title="Gurgaon Real Estate Market Analysis",
-    page_icon="🏢",
+    page_title="Gurgaon Real Estate Analytics | Harshjeet Chauhan",
+    page_icon="🏠",
     layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'About': "Gurgaon Real Estate Market Analysis | Professional Data Analytics"
-    }
+    initial_sidebar_state="expanded"
 )
 # Hide Streamlit toolbar and header
 st.markdown("""
