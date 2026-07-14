@@ -55,9 +55,11 @@ header {
     visibility: visible !important;
 }
 
-/* Hide sidebar collapse button */
+/* Show sidebar collapse button */
 [data-testid="stSidebarCollapseButton"] {
-    display: none !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 /* Hide Streamlit default multipage navigation */
 [data-testid="stSidebarNav"] {
