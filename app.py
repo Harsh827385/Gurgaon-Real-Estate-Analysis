@@ -59,6 +59,10 @@ header {
 [data-testid="stSidebarCollapseButton"] {
     display: none !important;
 }
+/* Hide Streamlit default multipage navigation */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
 </style>
 """, unsafe_allow_html=True)
 initialize_session_state()
