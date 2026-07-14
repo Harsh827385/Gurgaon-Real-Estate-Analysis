@@ -545,7 +545,7 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 ---
 
-**Built with ❤️ using Python & Streamlit**
+**Built by Harshjeet Chauhan ❤️ using Python & Streamlit**
 
 Professional Data Analytics Portfolio Project
 

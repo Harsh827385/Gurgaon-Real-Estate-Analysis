@@ -291,7 +291,7 @@ st.markdown("---")
 # Footer
 st.markdown("""
 <div style='text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #333;'>
-    <p><strong>Built with ❤️ using Python & Streamlit</strong></p>
+    <p><strong>Built by Harshjeet Chauhan ❤️ using Python & Streamlit</strong></p>
     <p>Professional Data Analytics Portfolio Project</p>
     <p style='font-size: 0.9rem; color: #888;'>© 2024. All rights reserved.</p>
 </div>

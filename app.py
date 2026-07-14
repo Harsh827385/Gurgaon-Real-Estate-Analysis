@@ -131,9 +131,9 @@ with st.sidebar:
     
     # Footer
     st.markdown("""
-    **Built with:** Streamlit, Pandas, Plotly
+    Built by Harshjeet Chauhan ❤️ Streamlit, Pandas, Plotly
     
-    **Author:** Data Analyst
+    **Built by:** Harshjeet Chauhan
     
     **License:** MIT
     """)
