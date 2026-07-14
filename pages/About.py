@@ -6,8 +6,7 @@ import streamlit as st
 # Hide Streamlit toolbar and header
 st.markdown("""
 <style>
-[data-testid="stToolbar"] {
-    display: none !important;
+
 }
 
 [data-testid="stDecoration"] {
@@ -18,9 +17,7 @@ st.markdown("""
     visibility: hidden !important;
 }
 
-header {
-    visibility: hidden !important;
-    height: 0px !important;
+
 }
 </style>
 """, unsafe_allow_html=True)

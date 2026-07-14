@@ -21,52 +21,10 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-# Hide Streamlit toolbar and header
-st.markdown("""
-<style>
-[data-testid="stToolbar"] {
-    display: none !important;
-}
 
-[data-testid="stDecoration"] {
-    display: none !important;
-}
+st.set_option("client.showSidebarNavigation", False)
 
-[data-testid="stStatusWidget"] {
-    visibility: hidden !important;
-}
 
-header {
-    visibility: hidden !important;
-    height: 0px !important;
-}
-/* Keep sidebar navigation visible */
-[data-testid="stSidebar"] {
-    display: block !important;
-    visibility: visible !important;
-    min-width: 300px !important;
-    width: 300px !important;
-    transform: none !important;
-}
-
-/* Keep sidebar content visible */
-[data-testid="stSidebarContent"] {
-    display: block !important;
-    visibility: visible !important;
-}
-
-/* Show sidebar collapse button */
-[data-testid="stSidebarCollapseButton"] {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-/* Hide Streamlit default multipage navigation */
-[data-testid="stSidebarNav"] {
-    display: none !important;
-}
-</style>
-""", unsafe_allow_html=True)
 initialize_session_state()
 
 from utils.cleaning import load_data, clean_data
@@ -78,47 +36,47 @@ if "df" not in st.session_state:
     
 # Custom CSS for dark theme and professional styling
 st.markdown("""
-    <style>
-    :root {
-        --primary-color: #1f77b4;
-        --background-color: #0e1117;
-        --secondary-background-color: #161b22;
-        --text-color: #c9d1d9;
-    }
-    
-    [data-testid="stMetricDelta"] > div:nth-child(1) > div:nth-child(1) {
-        font-size: 28px;
-    }
-    
-    .stTabs [data-baseweb="tab-list"] button {
-        font-weight: bold;
-    }
-    
-    .metric-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        text-align: center;
-    }
-    
-    h1 {
-        color: #1f77b4;
-        font-size: 2.5rem;
-        font-weight: bold;
-    }
-    
-    h2 {
-        color: #1f77b4;
-        font-size: 1.8rem;
-    }
-    
-    h3 {
-        color: #58a6ff;
-        font-size: 1.3rem;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+<style>
+:root {
+    --primary-color: #1f77b4;
+    --background-color: #0e1117;
+    --secondary-background-color: #161b22;
+    --text-color: #c9d1d9;
+}
+
+[data-testid="stMetricDelta"] > div:nth-child(1) > div:nth-child(1) {
+    font-size: 28px;
+}
+
+.stTabs [data-baseweb="tab-list"] button {
+    font-weight: bold;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #1f77b4;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1f77b4;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #58a6ff;
+    font-size: 1.3rem;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Import utilities
 from utils.cleaning import load_data, clean_data, get_data_summary

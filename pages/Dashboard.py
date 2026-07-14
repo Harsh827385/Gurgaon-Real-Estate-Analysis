@@ -8,8 +8,7 @@ from utils.session import initialize_session_state
 # Hide Streamlit toolbar and header
 st.markdown("""
 <style>
-[data-testid="stToolbar"] {
-    display: none !important;
+
 }
 
 [data-testid="stDecoration"] {
@@ -20,9 +19,7 @@ st.markdown("""
     visibility: hidden !important;
 }
 
-header {
-    visibility: hidden !important;
-    height: 0px !important;
+he
 }
 </style>
 """, unsafe_allow_html=True)
