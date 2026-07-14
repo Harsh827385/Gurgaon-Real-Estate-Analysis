@@ -5,6 +5,27 @@ Analysis Page - Detailed Statistical Analysis
 import streamlit as st
 
 from utils.session import initialize_session_state
+# Hide Streamlit toolbar and header
+st.markdown("""
+<style>
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+[data-testid="stStatusWidget"] {
+    visibility: hidden !important;
+}
+
+header {
+    visibility: hidden !important;
+    height: 0px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 initialize_session_state()
 from utils.analysis import (

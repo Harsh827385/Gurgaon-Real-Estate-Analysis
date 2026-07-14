@@ -3,6 +3,27 @@ About Page - Project Information and Author Details
 """
 
 import streamlit as st
+# Hide Streamlit toolbar and header
+st.markdown("""
+<style>
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+[data-testid="stStatusWidget"] {
+    visibility: hidden !important;
+}
+
+header {
+    visibility: hidden !important;
+    height: 0px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown("# ℹ️ About This Project")
 

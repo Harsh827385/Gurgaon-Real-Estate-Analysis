@@ -5,6 +5,27 @@ Price Predictor Page - Machine Learning Price Prediction
 import streamlit as st
 import numpy as np
 from utils.analysis import predict_price
+# Hide Streamlit toolbar and header
+st.markdown("""
+<style>
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+[data-testid="stStatusWidget"] {
+    visibility: hidden !important;
+}
+
+header {
+    visibility: hidden !important;
+    height: 0px !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown("# 🤖 AI-Powered Price Prediction")
 
