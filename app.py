@@ -130,13 +130,11 @@ with st.sidebar:
     st.markdown("---")
     
     # Footer
-    st.markdown("""
-    Built by Harshjeet Chauhan ❤️ Streamlit, Pandas, Plotly
-    
-    **Built by:** Harshjeet Chauhan
-    
-    **License:** MIT
-    """)
+st.markdown("""
+<div style="text-align: center; margin-top: 50px;">
+    <p><strong>Harshjeet Chauhan</strong></p>
+</div>
+""", unsafe_allow_html=True)
 
 # Page routing
 if page == "🏠 Home":

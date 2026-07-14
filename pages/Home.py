@@ -224,7 +224,7 @@ st.markdown("---")
 
 # Footer
 st.markdown("""
-<div style='text-align: center; margin-top: 50px;'>
-    <p><strong>Built by Harshjeet Chauhan ❤️ using Streamlit | Data Science Portfolio Project</strong></p>
+<div style="text-align: center; margin-top: 50px;">
+    <p><strong>Harshjeet Chauhan</strong></p>
 </div>
 """, unsafe_allow_html=True)
