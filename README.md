@@ -109,3 +109,18 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Harsh827385/Gurgaon-Real-Estate-Analysis.git
+
+
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/Home.png)
+
+### 📊 Interactive Dashboard
+
+![Interactive Dashboard](screenshots/Dashboard.png)
+
+### 🤖 Property Price Predictor
+
+![Property Price Predictor](screenshots/price-predictor.png)
