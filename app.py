@@ -40,6 +40,25 @@ header {
     visibility: hidden !important;
     height: 0px !important;
 }
+/* Keep sidebar navigation visible */
+[data-testid="stSidebar"] {
+    display: block !important;
+    visibility: visible !important;
+    min-width: 300px !important;
+    width: 300px !important;
+    transform: none !important;
+}
+
+/* Keep sidebar content visible */
+[data-testid="stSidebarContent"] {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Hide sidebar collapse button */
+[data-testid="stSidebarCollapseButton"] {
+    display: none !important;
+}
 </style>
 """, unsafe_allow_html=True)
 initialize_session_state()
