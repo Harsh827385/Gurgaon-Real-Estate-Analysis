@@ -2,6 +2,15 @@
 
 An interactive **data analytics and machine learning application** built with Python and Streamlit to explore Gurgaon's residential real estate market, identify pricing trends, generate business insights, and predict property prices.
 
+
+## 🚀 Live Demo
+
+🔗 **Explore the interactive application:**  
+https://harshjeet-gurgaon-real-estate.streamlit.app/
+
+> The live application provides interactive market analysis, business insights, data visualizations, and machine learning-based property price prediction.
+
+
 ## 🎯 Project Overview
 
 This project analyzes residential property data from Gurgaon to transform raw market data into meaningful and interactive insights.
